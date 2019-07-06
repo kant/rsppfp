@@ -6,7 +6,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1412539.svg)](https://doi.org/10.5281/zenodo.1412539)
 
-The **rsppfp** package implements different algorithms for transforming graphs in the _Shortest Path Problem with Forbidden Paths_ (SPPFP). This problem is an important concept in the field of graph theories, and it is a variant of the traditional _shortest path problem_. In here, there is an additional constrait that takes the form of a finite set of forbidden paths (arc sequences of at least three nodes) that cannot be part of any solution path. 
+The **rsppfp** package implements different algorithms for transforming graphs in the _Shortest Path Problem with Forbidden Paths_ (SPPFP). This problem is an important concept in the field of graph theories, and it is a variant of the traditional _shortest path problem_. In here, there is an additional constraint that takes the form of a finite set of forbidden paths (arc sequences of at least three nodes) that cannot be part of any solution path. 
 
 This problem is solved by transforming the original graph `G` and its set of forbidden paths `F`, generating a new graph `G*` in which traditional _shortest path_ algorithms can be applied, and obtain solutions that abide to the restrictions. This approach has a number of advantages:
 
